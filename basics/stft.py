@@ -82,7 +82,7 @@ def splitinfo(sigShape, frameShape, hop):
 
     # constructing the shape of the framed signal
     framedShape = np.append(frameShape, [len(x) for x in framesPos])
-    return (framesPos,framedShape,frameShape,hop,fdim,nDim,frameShapeAligned)
+    return (framesPos, framedShape, frameShape, hop, fdim, nDim, frameShapeAligned)
 
 
 def split(sig, frameShape, hop, weightFrames=True, verbose=False):

@@ -95,7 +95,7 @@ def separate(
     # initialization of the noise
     signal_no = X[...]
 
-    # for a fix number of iteration selected by the user
+    # # for a fix number of iteration selected by the user
     for it in range(nb_it):
 
         # estimation of target source scale parameter
