@@ -46,7 +46,7 @@ def separate(
             characteristic exponent (impulsiveness) of the noise
 
         deltaTs: int
-            number of time frame for average horizon (speech)
+            number of time frame for average horizon (speech) (approximatly btw. 3 and 10)
 
         deltaTno: int
             number of time frame for average horizon (noise)
