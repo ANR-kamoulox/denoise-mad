@@ -49,8 +49,8 @@ def separate(
             number of time frame for average horizon (speech)
 
         deltaTno: int
-            number of time frame for average horizon (speech)
-                  (for a more stationnary noise ==> deltaTno >> deltaTs)
+            number of time frame for average horizon (noise)
+                  (deltaTno >> deltaTs)
 
 
         Returns
